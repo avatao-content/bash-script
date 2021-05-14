@@ -45,3 +45,9 @@ for ((i = MAX_NO; i >= 1; i--)); do
 done
 
 echo -e "\n\n\t\t\t Whenever you need help, Tecmint.com is always there"
+
+
+for c in 90 31 91 32 33 34 35 95 36 97; do
+	echo -en "\r \e[${c}m LOVE \e[0m "
+	sleep 1
+done
